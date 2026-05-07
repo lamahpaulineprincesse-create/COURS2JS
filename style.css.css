@@ -1,0 +1,52 @@
+
+    body {
+        margin: 0;
+        font-family: Verdana, sans-serif;
+        background-color: black;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .accueil, .zoneJeu {
+        text-align: center;
+    }
+
+    .zoneJeu {
+        display: none;
+    }
+
+    button {
+        padding: 12px 18px;
+        font-size: 16px;
+        border-radius: 10px;
+        border: none;
+        background-color:blue;
+        color: white;
+        cursor: pointer;
+    }
+
+    .affichageNombre {
+        font-size: 70px;
+        margin: 25px;
+        color: blue;
+    }
+
+    .clavier {
+        display: grid;
+        grid-template-columns: repeat(5, 55px);
+        gap: 8px;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .clavier button {
+        background-color: #1f2937;
+    }
+
+    .infos {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }

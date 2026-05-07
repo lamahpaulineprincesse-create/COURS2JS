@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jeu_rapidite.css">
+</head>
+<body>
+    <div class="accueil" id="ecranAccueil">
+    <h1>Lancer le jeu</h1>
+    <button onclick="demarrer()">Commencer</button>
+</div>
+
+<div class="zoneJeu" id="ecranJeu">
+
+    <div class="infos">
+        Points : <span id="points">0</span> | Temps restant : <span id="temps">60</span>s
+    </div>
+
+    <div class="affichageNombre" id="nombreActuel">0</div>
+
+    <div class="clavier" id="clavier"></div>
+
+    <h2 id="messageFin"></h2>
+
+</div>
+<script src="jeu_rapidite.js"></script>
+</body>
+</html>
